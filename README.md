@@ -1,3 +1,31 @@
+
+
+## boot-java-study
+[ifelse.no.strategy3]
+    https://blog.csdn.net/liuchang840302/article/details/83894907  if-else重构解决：卫语句、策略模式、状态模式等 
+        1.卫语句   
+        2.策略模式：
+        3.状态模式
+    状态模式 与 策略模式 代码形式相似，但是状态模式会影响后续行为。
+    
+[ifelse.no.statepattern] 
+    https://blog.csdn.net/u012401711/article/details/52675873 Java设计模式——状态模式（STATE PATTERN） statepattern图解.png
+    其他：
+    https://blog.csdn.net/laner0515/article/details/7383872         你还在用if else吗？——状态模式、职责链模式
+    https://blog.csdn.net/liuyukuan/article/details/27378259        使用状态模式(state pattern)替代if else 
+
+
+
+## 如何交流、反馈、参与贡献？
+- Git仓库：https://gitee.com/theodo/jeefast
+- QQ交流群：583154815
+- 如需关注项目最新动态，请Watch、Star项目
+
+## 效果图
+![输入图片说明]( //gitee.com/uploads/images/2017/1106/212319_6de26405_718698.jpeg "登录.jpg")
+
+
+
 # 项目简介
     本项目核心设计目的是提供企业级的单点登录,会话管理,权限认证。
     子应用只需依赖sso-common,简单配置后项目中即可调用sso-server提供的主数据,权限,日志等服务；

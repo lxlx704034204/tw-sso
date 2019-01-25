@@ -33,7 +33,7 @@ extends BaseTest
 		System.out.println("开始");
 		for (int i = 1; i < 100000; i++) {
 			HttpUtil http = new HttpUtil();
-			http.postFormHeader("http://localhost:8081/login", "loginName=yangz"+i+"&password=1234");
+			http.postFormHeader("http://localhost:8181/login", "loginName=yangz"+i+"&password=1234");
 			System.err.println(i);
 		}
 		System.out.println("结束");
@@ -74,7 +74,7 @@ extends BaseTest
 					cookie.setDomain("127.0.0.1");
 					HttpUtil http = new HttpUtil(cookie);
 					
-					http.getJsonHeader("http://127.0.0.1:8081/v");
+					http.getJsonHeader("http://127.0.0.1:8181/v");
 				}
 			}
 		};

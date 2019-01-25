@@ -11,20 +11,20 @@ spring:
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/tw-sso?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: root
-    password: root
+    password:
 
   devtools:
     restart:
       enabled: true
 
 server:
-  port: 8081
+  port: 8181
   context-path: /
   
 sso:
   sys:
     #登录地址,子应用可以自定义登录页面
-    loginUrl: http://localhost:8081/login.jsp
-    setCookieUrl: http://localhost:8081/setcookie
+    loginUrl: http://localhost:8181/login.jsp
+    setCookieUrl: http://localhost:8181/setcookie
     #登录成功后跳转的地址
-    successUrl: http://localhost:8081/
+    successUrl: http://localhost:8181/
